@@ -1,9 +1,9 @@
 import random
-from heuristics import fifo_rule, spt_rule, edd_rule
+from src.heuristics import fifo_rule, spt_rule, edd_rule
 from typing import List, Callable, Dict
 
-from env_single_machine import Job, SingleMachineEnv
-from metrics import (
+from src.env_single_machine import Job, SingleMachineEnv
+from src.metrics import (
     total_weighted_tardiness,
     total_tardiness,
     average_flow_time,

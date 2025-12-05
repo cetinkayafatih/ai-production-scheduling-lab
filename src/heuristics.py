@@ -1,5 +1,5 @@
 from typing import List
-from env_single_machine import Job
+from src.env_single_machine import Job
 
 
 def fifo_rule(jobs: List[Job]) -> int:
